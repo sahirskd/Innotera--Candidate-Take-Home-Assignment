@@ -83,6 +83,7 @@ Derived from future payment behavior. A distributor is high_risk if they have an
 - **Time-based Leakage Prevention:** Used a mid cutoff date of 2025-10-01. Features rely on historical data before the cutoff and labels are generated from future data.
 - **Missing Data:** Missing order values were handled via imputation or logical dropping.
 - **Cold Start:** Distributors without payment history default to a baseline risk assessment using available order features.
+- **Feature Engineering:** Created multiple features which reflects the distributor's recent payment behavior and order history, eg: total invoices, total amount, average invoice amount, average payment delay, etc.
 
 ## Future Improvements
 
