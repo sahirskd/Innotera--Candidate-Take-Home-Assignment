@@ -88,6 +88,6 @@ Derived from future payment behavior. A distributor is high_risk if they have an
 ## Future Improvements
 
 1. **Synthetic Features:** Can add synthetic features using ADASYN or SMOTE to improve model performance.
-2. **MLOps:** Implement model monitoring for data drift and automated retraining pipelines.
-3. **CI/CD:** Add GitHub Actions for automated linting and testing.
-4. **Model Explainability:** Use SHAP to explain model predictions.
+2. **Model Explainability:** Use SHAP to explain model predictions.
+3. **MLOps:** Implement model monitoring for data drift and automated retraining pipelines.
+4. **CI/CD:** Add GitHub Actions for automated linting and testing.
