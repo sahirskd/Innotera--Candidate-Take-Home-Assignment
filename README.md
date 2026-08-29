@@ -14,12 +14,6 @@ API available at `http://localhost:8000`
 
 Swagger docs at `http://localhost:8000/docs`
 
-**Testing**:
-Run tests inside the running container:
-```bash
-docker compose exec risk-api pytest tests/
-```
-
 ## Local Environment Setup
 
 I used `uv` for fast dependency management and installation
