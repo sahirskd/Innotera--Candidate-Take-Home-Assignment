@@ -1,0 +1,14 @@
+numpy
+pandas
+ipykernel
+matplotlib
+seaborn
+scikit-learn
+optuna
+xgboost
+joblib
+fastapi
+uvicorn
+pydantic
+pytest
+httpx2

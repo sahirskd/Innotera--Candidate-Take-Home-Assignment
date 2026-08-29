@@ -1,0 +1,25 @@
+{
+    "model_type": "LogisticRegression_Pipeline",
+    "test_roc_auc": 0.9090909090909092,
+    "test_pr_auc": 0.8303571428571428,
+    "decision_threshold": 0.5494344385608426,
+    "features_numeric": [
+        "credit_limit_inr",
+        "credit_terms_days",
+        "credit_utilization",
+        "total_invoices",
+        "avg_delay_days",
+        "max_delay_days",
+        "on_time_ratio",
+        "overdue_ratio",
+        "total_orders",
+        "avg_order_value",
+        "cancellation_rate"
+    ],
+    "features_categorical": [
+        "region",
+        "channel"
+    ],
+    "trained_at": "2026-08-29T16:40:48.284900",
+    "t_cutoff": "2025-10-01 00:00:00"
+}

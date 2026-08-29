@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+uv.lock
+
+# model_artifacts/
+# *.joblib
+# *.json
