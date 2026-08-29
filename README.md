@@ -57,6 +57,13 @@ PYTHONPATH=. .venv/bin/uvicorn src.api:app --reload
 
 After running the server will be started and swagger docs will be available on: `http://localhost:8000/docs`
 
+## Run Automated Tests
+
+To verify that API logic are working correctly, run the test suite using `pytest`:
+
+```bash
+PYTHONPATH=. .venv/bin/pytest
+```
 
 ---
 
